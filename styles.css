@@ -27,6 +27,9 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    .linkbox {  width: 100%;  overflow: hidden;}
+    .bra {  float: left;  width: 50%;  background-color: none;}
+    .ket {  margin-left: 50%;  background-color: none;} 
      
     section {
     margin-bottom: 20px;
