@@ -10,10 +10,12 @@ div#sectionTop2{
 nav#Topnav{
     background-color: #ccff99;
     padding: 10px;
+    height: 60px;
 }
 ul#topNavUrl li{
     list-style: none;
     display: inline-block;
+    margin-top: 0px;
 }
 aside{
     margin-left: 30px;
@@ -34,6 +36,7 @@ ul#aside_link li
     padding-left: 20px;
     display: block;
     width: 160px;
+    height: 30px;
 }
 ul#aside_link li a{
     margin: 0px;
@@ -54,6 +57,7 @@ ul#address_link li address{
     line-height: 16px;
     text-align: left;
     font-family: 黑体;
+    font-style: normal;
     text-decoration: none;
     margin-right: 0px;
 }
@@ -133,6 +137,7 @@ article#main section[id^=bottomdiv]{
 }
 #inform-container{
     display: flex;
+    align-items: center;
 }
 #left-sidebar-i{
     width: 20px;
