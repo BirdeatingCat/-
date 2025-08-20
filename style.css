@@ -175,6 +175,9 @@ footer {
 }
 #left-sidebar-f{
     width: 1000px;
+    @media screen and (max-width: 980px){
+        width: 1200px;
+    }
     padding: 20px;
     margin-left: 30px;
 }
@@ -187,6 +190,7 @@ footer {
 }
 #right-sidebar-f{
     width: 320px;
+    
     padding: 20px;
     font-family: 黑体;
 }
