@@ -11,11 +11,15 @@ nav#Topnav{
     background-color: #ccff99;
     padding: 10px;
     height: 60px;
+    @media screen and (max-width: 980px){
+        width: 980px;
+        height: 120px;
+    }
 }
 ul#topNavUrl li{
     list-style: none;
-    display: inline-block;
     margin-top: 0px;
+    display:inline-block;
 }
 aside{
     margin-left: 30px;
